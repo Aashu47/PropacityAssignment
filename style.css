@@ -113,8 +113,6 @@
     position: absolute;
     width: 159px;
     height: 40px;
-    left: 1160px;
-    top: 40px;
     background: #0EA57A;
     border-radius: 8px;
     text-decoration: none;
@@ -128,6 +126,8 @@
 }
 #enquire-button{
    padding: 11px 37px;
+   left: 1160px;
+   top: 40px;
 }
 
 /*Hero Section*/
@@ -813,72 +813,90 @@
 
 .contact-us{
     position: absolute;
-    top: 1135px;
     width: 727px;
     height: 827px;
+    left: 0px;
+    top: 1135px;
+    z-index: 1;
+    background: #1A2440;
+    backdrop-filter: blur(5px);
+    
 }
+
 .contact-heading{
     position: absolute;
     width: 295px;
     height: 84px;
     top: 175px;
-    left: 70px;
-    color: #FFF;
+    left: 100px;
     font-family: 'Gabriela';
-    font-size: 50px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
-    letter-spacing: -2.5px;
+    font-size: 50px;
+    line-height: 71px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
 }
 .contact-subheading{
     position: absolute;
     top: 269px;
-    left: 70px;
+    left: 100px;
     width: 277px;
     height: 15px;
-    color: #A5A5A5;
     font-family: 'Poppins';
-    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.6px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.05em;
+    color: #A5A5A5;
 
 }
 .form-field{
+
     width: 419px;
     height: 46px;
     border-radius: 8px;
-    background-color:#1A2440;
     border: 1px solid #FFF;
 }
 .form-field1{
     position: absolute;
-    top:348px;
-    left: 70px;
+    left: 100px;
+    top: 348px;
 }
 .form-field2{
     position: absolute;
     top:413px;
-    left: 70px;
-    
-    
+    left: 100px;
+   
 }
 .form-field3{
     position: absolute;
     top:478px;
-    left: 70px;
+    left:100px;
 }
+#submit-btn{
+    position: absolute;
+    left: 250px;
+    top: 568px;
+    width: 134px;
+    height: 46px;
+    border-radius: 0;
+  
+    
+}
+
 .map{
     position: absolute;
+    width: 1441px;
+    height: 1121px;
+    left: 226px;
     top: 1250px;
-    left:238px;
-    width: 952px;
-    height: 805px;
-    background: radial-gradient(130.28% 129.71% at 56.05% 23.97%, rgba(0, 0, 0, 0.07) 0%, rgba(26, 36, 64, 0.20) 100%), url(Images/map.png), lightgray 50% / cover no-repeat;
-    z-index: 1;
+    background: radial-gradient(129.39% 129.39% at 56.05% 23.97%, rgba(0, 0, 0, 0.07) 0%, rgba(26, 36, 64, 0.2) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, url(Images/map.png);
+    mix-blend-mode: normal;
+
 }
+
 /*footer section*/
 
 .footer{
