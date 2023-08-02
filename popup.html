@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="contact-us">
+        <div class="conact-left">
+            <div class="contact-image"></div>
+        </div>
+        <div class="contact-right">
+            <div class="contact-heading">Book Site Tour</div>
+            <form method="post" action="" id="frmSubmit" name="contact-us">
+                <div class="form-group">
+                    <label for="name">Name </label><br>
+                    <input type="text" name="name" id="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="mobile">Mobile</label><br>
+                    <input type="tel" name="number" id="number">
+                </div>
+
+                <button type="submit" class="btn" id="submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzUkRyEiHuy0ws7CIe4yjiE74LlHH3Vaw7_n0eMDv4QLe8GlCxJCwZ-sCPkhYukvfjgjg/exec';
+        const apiURL = 'https://api.propacity.in/api/v1/webhooks/integration/794d3601-ec97-454f-a3b8-6c5961ff8da8/insertLead';
+
+        const form = document.getElementById('frmSubmit');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+
+            
+            const formData = new FormData(form);
+            const formDataObj = {};
+            formData.forEach((value, key) => {
+                formDataObj[key] = value;
+            });
+
+            // Send data to Google Sheets
+            fetch(scriptURL, { method: 'POST', body: formData })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Data sent to Google Sheets:', data);
+                form.reset();
+            })
+            .catch(error => console.error('Error sending data to Google Sheets:', error));
+
+            // Send data to the API
+            const payload = {
+                name: formDataObj.name,
+                email: formDataObj.email,
+                mobile: formDataObj.number,
+                meta: "meta data here" // Replace with actual meta data if available
+            };
+
+            fetch(apiURL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(payload)
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Data sent to API:', data);
+            })
+            .catch(error => console.error('Error sending data to API:', error));
+        });
+    </script>
+
+
+      
+ 
+</body>
+</html>

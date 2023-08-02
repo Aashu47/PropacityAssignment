@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+.contact-us{
+    position: absolute;
+    width: 1000px;
+    height: 550px;
+    background: #FFF;
+    display: flex;
+    border: 1px solid ;
+    margin: 3% 20% 5% 15%;
+}
+.contact-image{
+    width: 529px;
+    height: 550px;
+    background-image: url(Images/heroImage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.contact-right{
+    display: inline-flex;
+    padding: 27px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.contact-heading{
+    padding: 27px;
+    width: 336px;
+    color: #333;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.5px;
+
+}
+label {
+    top:143px;
+    width: 82.132px;
+    height: 21px;
+    color: #333;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; 
+    text-transform: capitalize;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 326px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgba(68, 68, 79, 0.10);
+  }
+  .logo1{
+    background-image: url(Images/emaill.png);
+    width: 15.386px;
+    height: 15.238px;
+  }
+  .btn {
+    display: flex;
+    width: 326px;
+    height: 40px;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #1A2440;
+    cursor: pointer;
+  }
+  
+  #submit-btn {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    margin-top:20px;
+  }
+  
+  .contact-us::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
