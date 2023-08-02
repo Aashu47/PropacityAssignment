@@ -6,7 +6,7 @@
 .wrapper{
     position: relative;
     width: 100vw;
-    height: 9181px;
+    height: 9100px;
     background: #1A2440;
     overflow-x: hidden;
     overflow-y: auto;
@@ -118,7 +118,7 @@
     background: #0EA57A;
     border-radius: 8px;
     text-decoration: none;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -329,7 +329,7 @@
     width: 1197px;
     height: 876px;
     top:136px;
-    left:118px;
+    left:75px;
 }
 .service-section-heading1{
     position: absolute;
@@ -338,7 +338,7 @@
     top:0px;
     left:530px;
     color: #00E5A1;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -351,7 +351,7 @@
     left:262px;
     color: #000;
     text-align: center;
-    font-family: Gabriela;
+    font-family: 'Gabriela';
     font-size: 60px;
     font-style: normal;
     font-weight: 500;
@@ -386,7 +386,7 @@
 }
 .service-heading{
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -395,7 +395,7 @@
  .service-descrption{
     color: #000;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 10px;
     font-style: normal;
     font-weight: 300;
@@ -425,7 +425,7 @@
     width: 1197px;
     height: 876px;
     top:72px;
-    left:121px;
+    left:75px;
     color:#000000;
 }
 .advantage-section-heading1{
@@ -435,7 +435,7 @@
     top: 0px;
     left: 527px;
     color: #00E5A1;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -448,7 +448,7 @@
     height: 81px;
     top:42px;
     left:423px;
-    font-family: Gabriela;
+    font-family: 'Gabriela';
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
@@ -581,7 +581,7 @@
 .card-descrption{
     width: 216px;
     height: 77px;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -609,18 +609,21 @@
     top: 780px;
     left: 973px;
 }
+
+/* Section 4*/
+
 .section4{
     position: absolute;
     width: 1440px;
     top:5943px;
-    left:121px;
+    left:75px;
     background-color:orange;
 }
 .about-section-heading{
     position: absolute;
     top: 100px;
     color: #FFF;
-    font-family: New York Large;
+    font-family: 'New York Large';
     font-size: 50px;
     font-style: normal;
     font-weight: 400;
@@ -632,7 +635,7 @@
     width: 589px;
     height: 178px;
     color: #A5A5A5;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -644,24 +647,26 @@
     width: 239px;
     top: 530px;
     color: #00E5A1;
-    font-family: Gabriela;
+    font-family: 'Gabriela';
     font-size: 64px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: -3.2px;
+    visibility: hidden;
 }
 .data1-descrption{
     position: absolute;
     width: 208px;
     top:611px;
     color: #A5A5A5;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
     line-height: 9.44px;
     letter-spacing: -0.06px;
+    visibility: hidden;
 }
 .data2-heading{
     position: absolute;
@@ -695,7 +700,7 @@
     left: 559px;
     top: 739px;
     color: #00E5A1;
-    font-family: Poppins;
+    font-family: 'Poppins' ;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -704,12 +709,10 @@
 }
 .location-heading2{
     position: absolute;
-    width: 385px;
-    height: 57px;
     top: 757px;
     left:396px;
     color: #FFF;
-    font-family: Gabriela;
+    font-family: 'Gabriela';
     font-size: 50px;
     font-style: normal;
     font-weight: 500;
@@ -731,10 +734,8 @@
     left: 7px;   
 }
 .location-name{
-    width: 328px;
-    height: 43px;
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
@@ -750,7 +751,7 @@
     width: 76px;
     height: 19px;
     color: #A5A5A5;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
@@ -809,6 +810,7 @@
 }
 
 /* contact section */
+
 .contact-us{
     position: absolute;
     top: 1135px;
@@ -822,7 +824,7 @@
     top: 175px;
     left: 70px;
     color: #FFF;
-    font-family: Gabriela;
+    font-family: 'Gabriela';
     font-size: 50px;
     font-style: normal;
     font-weight: 500;
@@ -836,7 +838,7 @@
     width: 277px;
     height: 15px;
     color: #A5A5A5;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -883,15 +885,15 @@
     position:absolute;
     top: 7999px;
     width: 1440px;
-    height: 1182px;
+    height: 1100px;
     background: #F3F4F9;
 }
 .footer-heading{
     position:absolute;
-    top: 155px;
-    left: 680.75px;
+    top: 75px;
+    left: 634px;
     color: #000;
-    font-family: Gabriela;
+    font-family: 'Gabriela';
     font-size: 25.5px;
     font-style: normal;
     font-weight: 500;
@@ -900,8 +902,8 @@
 }
 .heading-logo-bg{
     position:absolute;
-    top: 202px;
-    left: 665px;
+    top: 125px;
+    left: 615px;
     width: 109px;
     height: 108px;
     border-radius: 60px;
@@ -916,10 +918,10 @@
 }
 .mobile-number{
     position:absolute;
-    top: 338px;
-    left: 371px;
+    top: 275px;
+    left: 360px;
     color: #000;
-    font-family: Gabriela;
+    font-family: 'Gabriela';
     font-size: 93.176px;
     font-style: normal;
     font-weight: 400;
@@ -928,8 +930,8 @@
 }
 .twitter-icon-bg{
     position:absolute;
-    top: 671px;
-    left: 628px;
+    top: 600px;
+    left: 570px;
     width: 51px;
     height: 51px;
     border-radius: 60px;
@@ -944,8 +946,8 @@
 }
 .fb-icon-bg{
     position:absolute;
-    top: 671px;
-    left: 694px;
+    top: 600px;
+    left: 644px;
     width: 51px;
     height: 51px;
     border-radius: 60px;
@@ -960,8 +962,8 @@
 }
 .insta-icon-bg{
     position:absolute;
-    top: 671px;
-    left: 760px;
+    top: 600px;
+    left: 720px;
     width: 51px;
     height: 51px;
     border-radius: 60px;
@@ -976,8 +978,8 @@
 }
 .footer-logo{
     position:absolute;
-    top: 926px;
-    left: 643px;
+    top: 826px;
+    left: 603px;
     width: 143px;
     height: 128px;
     background: url(Images/footerLogo.png);
@@ -985,10 +987,10 @@
 }
 .reserved-sign{
     position:absolute;
-    top: 1093px;
-    left: 525px;
+    top: 990px;
+    left: 475px;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
