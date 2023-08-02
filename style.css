@@ -359,33 +359,8 @@
     letter-spacing: -1.5px;
 }
 
-.service{
 
-}
-.service{
-    
-}
-.service{
-    
-}
-.service{
-    
-}
-.service{
-    
-}
-.service{
-    
-}
-.service{
-    
-}
-.service{
-    
-}
-.service{
-    
-}
+
 .service-logo{
     width: 71px;
     height: 70px;
@@ -399,6 +374,52 @@
     padding: 20px;
 
 }
+.service-logo1{
+    position: absolute;
+    top: 288px;
+    left: 0px;
+}
+.service-logo2{
+    position: absolute;
+    top: 392px;
+    left: 0px;
+}
+.service-logo3{
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+.service-logo4{
+    position: absolute;
+    top: 288px;
+    left: 449px;
+}
+.service-logo5{
+    position: absolute;
+    top: 392px;
+    left: 449px;
+}
+.service-logo6{
+    position: absolute;
+    top: 500px;
+    left: 449px;
+}
+.service-logo7{
+    position: absolute;
+    top: 288px;
+    left: 912px;
+}
+.service-logo8{
+    position: absolute;
+    top: 392px;
+    left: 912px;
+}
+.service-logo9{
+    position: absolute;
+    top: 500px;
+    left: 912px;
+}
+
 .service-heading{
     position: absolute;
     color: #000;
@@ -406,10 +427,54 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 21px ;
-    
+    line-height: 21px ;  
  }
 
+ .service-heading1{
+    position: absolute;
+    top: 302px;
+    left: 81px;
+ }
+ .service-heading2{
+    position: absolute;
+    top: 406px;
+    left: 85px;
+ }
+ .service-heading3{
+    position: absolute;
+    top: 514px;
+    left: 85px;
+ }
+ .service-heading4{
+    position: absolute;
+    top: 302px;
+    left: 533px;
+ }
+ .service-heading5{
+    position: absolute;
+    top: 406px;
+    left: 533px;
+ }
+ .service-heading6{
+    position: absolute;
+    top: 514px;
+    left: 536px;
+ }
+ .service-heading7{
+    position: absolute;
+    top: 302px;
+    left: 995px;
+ }
+ .service-heading8{
+    position: absolute;
+    top: 406px;
+    left: 995px;
+ }
+ .service-heading9{
+    position: absolute;
+    top: 514px;
+    left: 995px;
+ }
  .service-descrption{
     color: #000;
     text-align: center;
@@ -420,6 +485,7 @@
     line-height: 10.5px;
     text-transform: capitalize;
  }
+ 
  .service-section-image{
     position: absolute;
     width: 1437px;
