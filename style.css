@@ -359,20 +359,32 @@
     letter-spacing: -1.5px;
 }
 
-.service-section-content{
-    display: flex;
-    position: absolute;
-    top:438px;
-    left:px;
-    gap:448px;
+.service{
+
 }
-.service-column1{
-    left:81px;
-    top:302px;
+.service{
+    
 }
-.service-column2{
-    left:533px;
-    top:302px;
+.service{
+    
+}
+.service{
+    
+}
+.service{
+    
+}
+.service{
+    
+}
+.service{
+    
+}
+.service{
+    
+}
+.service{
+    
 }
 .service-logo{
     width: 71px;
@@ -381,17 +393,23 @@
     background: #EBFAFF;
 }
 .service-logo-image{
+    position: absolute;
     width: 1440px;
     height: 1646px;
+    padding: 20px;
+
 }
 .service-heading{
+    position: absolute;
     color: #000;
     font-family: 'Poppins';
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: 21px ;
+    
  }
+
  .service-descrption{
     color: #000;
     text-align: center;
