@@ -5,27 +5,28 @@
 }
 .wrapper{
     position: relative;
-    width: 1440px;
+    width: 100vw;
     height: 9181px;
     background: #1A2440;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 .container{
+    position: absolute;
     width: 1440px;
     height: 1565px;
-    left: 0px;
-    top: -463px;
-    background: url(Images/heroImage.png);
+    background: url(Images/heroImage.png);    
     background-repeat: no-repeat;
+
 }
 /* nav Bar  */
 
 .navbar{
     position: absolute;
-    width: 1210px;
+    width: 1200px;
     height: 54px;
-    left: 118px;
-    top: 40px;
-
+    top: 0px;
+   
 }
 .nav-logo{
     position: absolute;
@@ -49,6 +50,7 @@
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
+    text-decoration: none;
 }
 #overview{
     position: absolute;
@@ -62,6 +64,7 @@
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
+    text-decoration: none;
 }
 #amenities{
     position: absolute;
@@ -75,6 +78,7 @@
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
+    text-decoration: none;
 }
 #gallery{
     position: absolute;
@@ -88,6 +92,7 @@
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
+    text-decoration: none;
 }
 #contact{
     position: absolute;
@@ -101,31 +106,32 @@
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
+    text-decoration: none;
 }
 .btn{
     box-sizing: border-box;
     position: absolute;
     width: 159px;
     height: 40px;
-    left: 1169px;
-    top: 47px;
+    left: 1160px;
+    top: 40px;
     background: #0EA57A;
     border-radius: 8px;
-}
-#navButton{
-    position: absolute;
-    width: 86px;
-    height: 19px;
-    left: 1206px;
-    top: 58px;
-    font-family: 'Poppins';
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
+    line-height: normal;
     color: #FFFFFF;
+  
 }
+#enquire-button{
+   padding: 11px 37px;
+}
+
 /*Hero Section*/
+
 .hero-section{
     position: absolute;
     width: 706px;
@@ -213,58 +219,51 @@
     position: absolute;
     width: 87px;
     height: 87px;
-    
     margin-left: 36px;
-    margin-top:-101px;
+    margin-top:-111px;
 }
+
 /*content-section*/
 
 .content-section{
     position: absolute;
     width: 1204.22px;
     height: 1084px;
-    left: 118px;
+    left: 75px;
     top: 1591px;
 }
-.content-section-left1{
-    box-sizing: border-box;
+.content-section-image1{
     position: absolute;
     width: 302.64px;
     height: 412.46px;
     top:39.27px;
     left:0px;
-    background: url(Images/Rectangle\ 68.png);
-    transform: rotate(-15deg);
-    border: 1px solid #FFD589;
+   
 }
-.content-section-image{
+.content-section-image2{
     position: absolute;
     width: 302.64px;
     height: 412.46px;
-    left: 115px;
+    left: 115.31px;
     top: 0px;
-    background: url(Images/Rectangle\ 67.png);
-    transform: rotate(8.44deg);
+  
 }
 .heading1{
     position: absolute;
-    width: 65px;
-    height: 23px;
-    left: 665px;
-    top: 121px;
+    left: 660px;
+    top: 123px;
+    color: #00E5A1;
     font-family: 'Poppins';
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 22px;
-    letter-spacing: 0.075em;
-    color: #00E5A1;
-}
+    line-height: normal;
+    letter-spacing: 1.125px;
+    }
+
 .heading2{
     position: absolute;
-    width: 539px;
-    height: 91px;
-    left: 665px;
+    left: 660px;
     top: 175px;
     font-family: 'Gabriela';
     font-style: normal;
@@ -278,7 +277,7 @@
     position: absolute;
     width: 539px;
     height: 178px;
-    left: 665.73px;
+    left: 660px;
     top: 278px;
     font-family: 'Poppins';
     font-style: normal;
@@ -286,7 +285,7 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.09em;
-    color: #E3E3E3;
+    color: #b1b1b1;
 }
 .part2-heading1{
     top:595px;
@@ -300,28 +299,23 @@
     top:762px;
     left:0px;
 }
-.content-section-right2{
-    box-sizing: border-box;
+.content-section-image3{
     position: absolute;
     width: 302.64px;
     height: 412.46px;
     left: 729px;
     top: 607.27px;
-    background: linear-gradient(0deg, rgba(26, 36, 64, 0.5), rgba(26, 36, 64, 0.5)), url(Images/Rectangle\ 70.png);
-    mix-blend-mode: color-dodge;
-    border: 1px solid #FFD589;
-    transform: rotate(-15deg);
 }
-.content-section-image2{
+.content-section-image4{
     position: absolute;
     width: 302.64px;
     height: 412.46px;
     left: 844.31px;
     top: 568px;
-    background: url(Images/Rectangle\ 71.png);
-    transform: rotate(8.44deg);
 }
+
 /*service section*/
+
 .Service-section{
     position: absolute;
     width: 1440px;
@@ -416,7 +410,9 @@
     top: 904px;
     background: url(Images/serviceSectionImage.png);
 }
+
 /*Advantages section*/
+
 .Advantage-section{
     position: absolute;
     width: 1440px;
@@ -493,7 +489,7 @@
 }
 .card-num{
     color: #00E5A1;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 19px;
     font-style: normal;
     font-weight: 700;
@@ -522,7 +518,7 @@
     left: 973px;
 }
 .card-heading{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 19px;
     font-style: normal;
     font-weight: 700;
