@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+       .container{
+        position: absolute;
+        width: 1366px;
+        height: 951px;
+        background: #FFF;
+        overflow-x: hidden;
+       }
+       .navbar{
+        display: inline-flex;
+        padding: 8px 83px;
+        justify-content: center;
+        align-items: center;
+        gap: 882px;
+       }
+       .logo{
+        width: 184px;
+        height: 54px;
+        background-image: url(Images/thankUfileLogo.png);
+       }
+       .number{
+        color: #E37C5B;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 18px; 
+        letter-spacing: 0.2px;
+       }
+       .left-section{
+        position: absolute;
+        top: 72px;
+        left: 83px;
+        width: 694px;
+        height: 575px;
+        background-image: url(Images/heroImage.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+       }
+       .right-section{
+        position: absolute;
+        top: 220px;
+        left: 893px;
+        width: 390px;
+        height: 282px;
+       }
+       .heading{
+        width: 491px;
+        color: #0C090D;
+        font-family: Poppins;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%;
+        letter-spacing: 0.2px;
+       }
+       .sub-heading{
+        position: absolute;
+        top: 144px;
+        width: 289px;
+        color: #333;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%; 
+        letter-spacing: 0.273px;
+       }
+       #btn{
+        position: absolute;
+        top: 242px;
+        width: 232px;
+        height: 40px;
+        border-radius: 5px;
+        background: #1A2440;
+        cursor: pointer;
+       }
+       .text{
+        color: #FFF;
+        padding: 8px 36px;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%; 
+        letter-spacing: 0.2px;
+        text-transform: capitalize;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo"></div>
+            <div class="number">+91-8197883993</div>
+        </div>
+        <div class="left-section"></div>
+        <div class="right-section">
+            <div class="heading">Thanks for <br> registering!</div>
+            <div class="sub-heading">Our experts will get in touch with you shortly</div>
+            <div id="btn">
+                <div class="text">Back to Homepage</div></div>
+        </div>
+    </div>
+
+
+    <script>
+        const backBtn = document.getElementById('btn');
+        backBtn.addEventListener('click', function() {
+        window.location.href = 'index.html';
+        });
+    </script>
+</body>
+</html>

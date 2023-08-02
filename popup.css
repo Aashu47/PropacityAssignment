@@ -42,6 +42,15 @@ body{
     letter-spacing: -0.5px;
 
 }
+#cross-icon{
+  position: absolute;
+  top: 16px;
+  left: 936px;
+  width: 48px;
+  height: 48px;
+  background-image: url(Images/cross.png);
+  cursor: pointer;
+}
 label {
     top:143px;
     width: 82.132px;

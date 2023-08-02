@@ -12,6 +12,7 @@
             <div class="contact-image"></div>
         </div>
         <div class="contact-right">
+            <div id="cross-icon"></div>
             <div class="contact-heading">Book Site Tour</div>
             <form method="post" action="" id="frmSubmit" name="contact-us">
                 <div class="form-group">
@@ -29,11 +30,18 @@
                     <input type="tel" name="number" id="number">
                 </div>
 
-                <button type="submit" class="btn" id="submit-btn">Submit</button>
+                <button type="submit" class="btn" id="submit-btn">Book Now</button>
             </form>
         </div>
     </div>
     <script>
+         const cancelBtn = document.getElementById('cross-icon');
+         cancelBtn.addEventListener('click', function() {
+         window.location.href = 'index.html';
+        });
+
+
+
         const scriptURL = 'https://script.google.com/macros/s/AKfycbzUkRyEiHuy0ws7CIe4yjiE74LlHH3Vaw7_n0eMDv4QLe8GlCxJCwZ-sCPkhYukvfjgjg/exec';
         const apiURL = 'https://api.propacity.in/api/v1/webhooks/integration/794d3601-ec97-454f-a3b8-6c5961ff8da8/insertLead';
 
@@ -55,6 +63,7 @@
             .then(data => {
                 console.log('Data sent to Google Sheets:', data);
                 form.reset();
+                window.location.href = 'thank.html';
             })
             .catch(error => console.error('Error sending data to Google Sheets:', error));
 
@@ -76,6 +85,7 @@
             .then(response => response.json())
             .then(data => {
                 console.log('Data sent to API:', data);
+                
             })
             .catch(error => console.error('Error sending data to API:', error));
         });
