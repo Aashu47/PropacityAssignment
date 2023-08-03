@@ -982,11 +982,32 @@
 
 }
 .form-field{
-
+    background: #1A2440;
     width: 419px;
     height: 46px;
     border-radius: 8px;
+    border: 1px solid white;
+    color: #FFFFFF;
+    padding-left: 55px;
 }   
+.namelogo1{
+    position: absolute;
+    top: 363px;
+    left: 120px;
+    z-index: 1;
+}
+.namelogo2{
+    position: absolute;
+    top: 428px;
+    left: 120px;
+    z-index: 1;
+}
+.namelogo3{
+    position: absolute;
+    top: 494px;
+    left: 120px;
+    z-index: 1;
+}
 .form-field1{
     position: absolute;
     left: 100px;
@@ -1007,9 +1028,8 @@
     position: absolute;
     left: 250px;
     top: 568px;
-    width: 134px;
-    height: 46px;
     border-radius: 0;
+    border: 1px inset #00E5A1;
     
 }
 
@@ -1146,3 +1166,146 @@
 span{
     font-weight: 700;
 }
+
+/*Media Queries*/
+
+@media (max-width: 767px) {
+    .wrapper{
+        width: 56%;
+        position: relative;
+    }
+     
+    .container{
+        width: 430px;
+        height: 932px;
+        position: absolute;
+       
+    }
+    /* Hero Section */
+    .hero-section {
+        position: absolute;
+      width: 56.08%;
+      height: auto;
+      top: ;
+    }
+    .hero-section-heading1 {
+      font-size: 14px;
+    }
+    .hero-section-heading2 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    .hero-section-heading3 {
+      font-size: 20px;
+      line-height: 26px;
+    }
+    .hero-section-heading4 {
+      font-size: 18px;
+    }
+    .vectoLogo {
+      width: 130px;
+      height: 120px;
+    }
+
+}
+    /* Hero Section 
+    .hero-section {
+      width: 100%;
+      height: auto;
+      left: 0;
+      top: 0;
+    }
+    .hero-section-heading1 {
+      font-size: 14px;
+    }
+    .hero-section-heading2 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    .hero-section-heading3 {
+      font-size: 20px;
+      line-height: 26px;
+    }
+    .hero-section-heading4 {
+      font-size: 18px;
+    }
+    .vectoLogo {
+      width: 130px;
+      height: 120px;
+    }
+  
+    /* Content Section 
+    .content-section {
+      width: 100%;
+      height: auto;
+      left: 0;
+      top: 0;
+    }
+    .content-section-image1 {
+      width: 100%;
+      height: auto;
+    }
+    .content-section-image2 {
+      width: 100%;
+      height: auto;
+    }
+    .heading1 {
+      font-size: 16px;
+    }
+    .heading2 {
+      font-size: 32px;
+      line-height: 48px;
+    }
+    .description {
+      font-size: 14px;
+    }
+  
+    /* Service Section 
+    .Service-section {
+      width: 100%;
+      height: auto;
+      left: 0;
+      top: 0;
+    }
+    .service-section-amenties {
+      width: 100%;
+      height: auto;
+      left: 0;
+      top: 0;
+    }
+    .service-section-heading1 {
+      font-size: 14px;
+    }
+    .service-section-heading2 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    .service-logo {
+      width: 50px;
+      height: 50px;
+    }
+  
+    /*Advantages section
+  
+    .Advantage-section {
+      width: 100%;
+      height: auto;
+      top: 4926px;
+      background-color:#F3F4F9;;
+    }
+    .advantage-section-amenities {
+      width: 100%;
+      height: auto;
+      left: 0;
+      top: 0;
+      color:#000000;
+    }
+    .advantage-section-heading1 {
+      font-size: 14px;
+    }
+    .advantage-section-heading2 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+  

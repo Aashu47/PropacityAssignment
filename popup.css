@@ -43,13 +43,13 @@ body{
 
 }
 #cross-icon{
-  position: absolute;
-  top: 16px;
-  left: 936px;
-  width: 48px;
-  height: 48px;
-  background-image: url(Images/cross.png);
-  cursor: pointer;
+    position: absolute;
+    top: 16px;
+    left: 936px;
+    width: 48px;
+    height: 48px;
+    background-image: url(Images/cross.png);
+    cursor: pointer;
 }
 label {
     top:143px;
@@ -64,20 +64,30 @@ label {
     text-transform: capitalize;
   }
   
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"] {
-    width: 326px;
-    height: 40px;
-    border-radius: 5px;
-    background: rgba(68, 68, 79, 0.10);
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      width: 326px;
+      height: 40px;
+      border-radius: 5px;
+      background: rgba(68, 68, 79, 0.10);
   }
-  .logo1{
-    background-image: url(Images/emaill.png);
-    width: 15.386px;
-    height: 15.238px;
-  }
-  .btn {
+.name-logo{
+    position:absolute;
+    top:200px;
+    left: 860px;
+}
+.email-logo{
+    position:absolute;
+    top:293px;
+    left: 860px;
+}
+.number-logo{
+    position:absolute;
+    top:380px;
+    left: 860px;
+ } 
+.btn {
     display: flex;
     width: 326px;
     height: 40px;
