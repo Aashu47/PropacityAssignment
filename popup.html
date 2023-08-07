@@ -36,6 +36,7 @@
             </form>
         </div>
     </div>
+    
     <script>
          const cancelBtn = document.getElementById('cross-icon');
          cancelBtn.addEventListener('click', function() {
@@ -74,11 +75,10 @@
                 name: formDataObj.name,
                 email: formDataObj.email,
                 mobile: formDataObj.number,
-                meta: "meta data here" // Replace with actual meta data if available
+                meta: "meta data here" 
             };
 
-            fetch(apiURL, {
-                method: 'POST',
+            fetch(apiURL, { method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
                 },

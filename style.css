@@ -6,128 +6,63 @@
 .wrapper{
     position: relative;
     width: 100vw;
-    height: 9099px;
+    height:100vh;
     background: #1A2440;
     overflow-x: hidden;
     overflow-y: auto;
 }
 .container{
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 1565px;
     background: url(Images/heroImage.png);    
     background-repeat: no-repeat;
+    
 
 }
 /* nav Bar  */
 
 .navbar{
-    position: absolute;
     width: 1200px;
     height: 54px;
-    top: 0px;
-   
+    display: flex;
+    gap: 190px;
+    margin: 40px 0px 0px 118px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
 }
+
 .nav-logo{
-    position: absolute;
     width: 184px;
     height: 54px;
-    left: 118px;
-    top: 40px;
     background: url(Images/mainLogo.png);
     background-size: cover;
     background-repeat: no-repeat;  
 }
-#home{
-    position: absolute;
+
+.nav-items{
+    display: flex;
+    gap: 41px;
+    padding-top:18px ;
+    line-height: 18px; 
+}
+
+#home,#overview, #amenities,
+#gallery,#contact{
     width: 39px;
     height: 19px;
-    left: 492px;
-    top: 58px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-#overview{
-    position: absolute;
-    width: 63px;
-    height: 19px;
-    left: 572px;
-    top: 58px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-#amenities{
-    position: absolute;
-    width: 63px;
-    height: 19px;
-    left: 676px;
-    top: 58px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-#gallery{
-    position: absolute;
-    width: 63px;
-    height: 19px;
-    left: 780px;
-    top: 58px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-#contact{
-    position: absolute;
-    width: 63px;
-    height: 19px;
-    left: 884px;
-    top: 58px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
     color: #FFFFFF;
     text-decoration: none;
 }
 .btn{
-    box-sizing: border-box;
-    position: absolute;
-    width: 159px;
-    height: 40px;
-    background: #0EA57A;
+    border: 0px solid #FFF;
     border-radius: 8px;
-    text-decoration: none;
-    font-family: 'Poppins';
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
+    background: #0EA57A;
+    color: #FFF;
+    padding:  11px 37px; 
     line-height: normal;
-    color: #FFFFFF;
-  
-}
-#enquire-button{
-   padding: 11px 37px;
-   left: 1160px;
-   top: 40px;
 }
 
 /*Hero Section*/
@@ -135,92 +70,69 @@
 .hero-section{
     position: absolute;
     width: 706px;
-    height: 744px;
-    left: 367px;
-    top: 402px;
+    height: 760px;
+    margin:400px 367px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+   
 }
 #box{
     box-sizing: border-box;
-    position: absolute;
     width: 241px;
     height: 56px;
-    left:235px;
-    top:0px;
     border: 1.5px solid #FFFFFF;
     border-radius: 8px;
+    text-align: center;   
 }
-.hero-section-heading1{
-    position: absolute;
-    width: 68px;
-    height: 19px;
-    padding-left:87px;
-    padding-top:17px;
+
+.hero-section-heading1{ 
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 50px;
     letter-spacing: 0.13em;
-    color: #FFFFFF;
-    box-sizing: border-box;
+    
 }
+
 .hero-section-heading2{
-    position: absolute;
-    width: 706px;
-    height: 174px;
-    top:160px;
+    margin-top: 90px;
     font-family: 'Gabriela';
-    font-style: normal;
-    font-weight: 500;
     font-size: 160px;
     line-height: 226px;
-    text-align: center;
     letter-spacing: -0.04em;
-    color: #FFFFFF;
+
 }
+
 .hero-section-heading3{
-    position: absolute;
-    width: 476px;
-    height: 174px;
-    left: 115px;
-    top: 312px;
     font-family: 'Gabriela';
     font-style: normal;
     font-weight: 400;
     font-size: 128px;
-    line-height: 164px;
-    text-align: center;
+    line-height: 32px;
     letter-spacing: -0.04em;
-    color: #FFFFFF;
 }
+
 .hero-section-heading4{
-    position: absolute;
-    width: 208px;
-    height: 41px;
     font-family: 'Sharpe PERSONAL';
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
-    line-height: 41px;
-    left: 249px;
-    top: 455px; 
-    text-align: center;
+    line-height: 140px;
     text-transform: capitalize;
     color: #00E5A1;
 }
 .vectoLogo{
-    position: absolute;
     width: 160px;
     height: 150px;
-    left: 274px;
-    top: 594px;
+    line-height: 410px;
+
 }
 .arrow{
-    position: absolute;
-    width: 87px;
-    height: 87px;
-    margin-left: 36px;
-    margin-top:-111px;
+    margin:-435px 33px;
 }
 
 /*content-section*/
@@ -1029,7 +941,6 @@
     left: 250px;
     top: 568px;
     border-radius: 0;
-    border: 1px inset #00E5A1;
     
 }
 
