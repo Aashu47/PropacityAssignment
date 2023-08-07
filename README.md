@@ -5,7 +5,7 @@ This project is a web application built using HTML, CSS, and JavaScript, along w
 
 ## Demo
 
-https://aashu47.github.io/PropracityAssignment/
+ https://aashu47.github.io/PropacityAssignment/
 
 ## Features
 
